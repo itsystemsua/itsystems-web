@@ -1,0 +1,61 @@
+.ajaxSearch_highlight {
+	font-weight: bold;
+}
+
+.ajaxSearch_resultDescription, .ajaxSearch_resultsInfos {
+	display: none;
+}
+
+.ajaxSearch_result {
+	padding-top: 5px;
+}
+
+.ajaxSearch_paging {
+	display: block;
+	padding-top: 10px;
+}
+
+.ajaxSearch_grpResultName {
+	font-style: italic;
+    padding: 15px 0 5px;
+}
+
+.search-form {
+	background-color: #f1f1e8;
+}
+
+#ajaxSearch_radio{
+	padding-bottom: 30px;
+}
+
+.ajaxSearch_paging span {
+    font-size: 110%;
+}
+
+.pageCurrent {
+    font-weight: bold;
+}
+
+.level0_submenu_box li.map-level-1 {
+    PADDING-LEFT: 20px; BACKGROUND: url(assets/images/design/li_none.gif) no-repeat 5px 0.7em; MARGIN: 0.4em 0px 0px
+}
+
+.level0_submenu_box li.map-level-1 A:link {
+        COLOR: #474747; TEXT-DECORATION: underline; FONT-WEIGHT: bold;
+}
+.level0_submenu_box li.map-level-1 A:visited {
+        COLOR: #474747; TEXT-DECORATION: underline; FONT-WEIGHT: bold;
+}
+.level0_submenu_box li.map-level-1 A:hover {
+        COLOR: #ee3539; TEXT-DECORATION: underline; FONT-WEIGHT: bold;
+}
+
+.level0_submenu_box li.map-level-2 A:link {
+        COLOR: #5a504b; TEXT-DECORATION: underline; FONT-WEIGHT: normal;
+}
+.level0_submenu_box li.map-level-2 A:visited {
+        COLOR: #5a504b; TEXT-DECORATION: underline; FONT-WEIGHT: normal;
+}
+.level0_submenu_box li.map-level-2 A:hover {
+        COLOR: #ee3539; TEXT-DECORATION: underline; FONT-WEIGHT: normal;
+}

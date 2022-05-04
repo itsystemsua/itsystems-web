@@ -1,0 +1,122 @@
+.central-image-holder {
+	height: 352px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.central-image-loader {
+	position: absolute;
+	top: 175px;
+	display: none;
+	z-index:10;
+}
+
+
+.central-image {
+	display: none;
+	position: absolute;
+}
+
+.central-image-primary {
+    z-index:2;
+}
+
+.central-image-second {
+    z-index:3;
+}
+
+.top-menu {
+	height:40px;
+	width:100%;
+	background: #47484a;        
+}
+
+.expandable-top-item {
+	display: none;
+	position: absolute;
+	left:5px;
+	top:39px;
+	width: 200px;
+	margin-left:-10px;
+	z-index: 9999;
+}
+
+.menu-holder {
+	position: relative;
+	height: 40px;
+	padding-left:5px;
+	z-index: 9999;
+}
+
+A.top-menu-item, A.top-menu-item:visited, A.top-menu-item:active {
+	color: #D9D9D9;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;        
+        
+}
+
+A.selected, A.selected:hover, A.selected:active, A.selected:visited {
+    /*color: #E50106;*/
+	COLOR: #ee3539; FONT-WEIGHT: bold;	
+    /*cursor: default;    */
+}
+A.child-selected, A.child-selected:hover, A.child-selected:active, A.child-selected:visited {
+    color: #FFFFFF;
+    font-weight: bold;        
+    /*cursor: default;    */
+}
+TD.selected {
+    color: #E50106;
+}
+
+.first-sub-item {
+	border-top:#e70006 1px solid
+}
+
+.sub-item {
+	border-left:#e70006 1px solid;
+	border-right:#e70006 1px solid;
+	padding: 6px 10px 0 10px;
+	background: transparent url(/assets/images/design/menu/dropdownmenu_bgrd.png) repeat;
+}
+
+.sub-item, .no-transparent, .t_31 {
+    /*background: #B9B9B9;*/
+    background: transparent url(/assets/images/design/menu/dropdownmenu_bgrd.png) repeat;
+}
+
+.sub-item  A, .sub-item  A:visited, .sub-item  A:active {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.sub-item  A:hover {
+	color: #e70006;
+}
+
+.last-sub-item {
+	border-bottom:#e70006 1px solid;
+	padding-bottom: 10px;
+}
+
+A.top-menu-item-hover {
+	color: #FFFFFF;
+}
+
+A.top-menu-item-hover:hover {
+	color: #FFFFFF;
+}
+
+A.top-menu-item-selected {
+    color: #e70006;
+}
+
+A.top-menu-item-selected:hover {
+    color: #e70006;
+}
+
+A.top-menu-item {
+    font-size: 120%;
+}
